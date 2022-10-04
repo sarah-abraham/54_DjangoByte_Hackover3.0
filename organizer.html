@@ -6,7 +6,7 @@
 <body>
     
 
-    <h1>Admin Panel</h1>
+    <h1>Organizer Panel</h1>
     <ul class="utilities">
       <br>
       <li class="users"><a href="#">My Account</a></li>
@@ -17,19 +17,19 @@
   <nav role='navigation'>
     <ul class="main">
       <li class="dashboard"><a href="admindashboard">Dashboard</a></li>
-      <li class="edit"><a href="#">Verify Organizers</a></li>
-      <li class="write"><a href="#">Edit events</a></li>
-      <li class="comments"><a href="#">Organizers ID proof</a></li>
-      <li class="users"><a href="#">Manage organizers</a></li>
+      <li class="edit"><a href="#">Edit events</a></li>
+      <li class="write"><a href="#">Add more event</a></li>
+      <li class="comments"><a href="#">Suggest updates</a></li>
+      <li class="users"><a href="#">Manage Users</a></li>
     </ul>
   </nav>
   
   <main role="main">
     
     <section class="panel important">
-      <h2>Inform Organizers</h2>
-      <ul>
-        <li>Information Panel</li>
+      <h2>Upload ID proof</h2>
+      <ul class = "main">
+        <li class="write"><a href="#">Add ID for verification</a></li>
       </ul>
     </section>
     
@@ -49,19 +49,7 @@
         </form>
 
         
-        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-          <div class="twothirds">
-            <h2>Remove event</h2><br><br>
-            Event title:<br/>
-            <input type="text" name="title" size="40"/><br/><br/>
-            Event Description:<br/>    
-            <textarea name="newstext" rows="15" cols="67"></textarea><br/>  
-          </div>
-          <div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <input type="submit" name="submit" value="Remove" />
-          </div>
-          </div>
-        </form>
+       
     </section>
     
   
